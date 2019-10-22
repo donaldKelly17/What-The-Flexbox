@@ -202,13 +202,15 @@ input::-moz-focus-inner {
   display: flex;
   border: 10px solid mistyrose;
   height: 100vh;
-  align-items: baseline;
-  /* align-items: flex-end; */
-  /* justify-cntent: flex-end; */
-  flex-direction: column;
+  /* align-content: space-between; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  align-items: flex-end;
+  /* flex-direction: column; */
   /* min-height: 100vh; */
 }
 
+/* 
 .box1 {
   font-size: 30px;
 }
@@ -219,4 +221,9 @@ input::-moz-focus-inner {
 
 .box4 {
   font-size: 10px;
+} */
+
+.box6 {
+  font-size: 200px;
+  align-self: center;
 }
